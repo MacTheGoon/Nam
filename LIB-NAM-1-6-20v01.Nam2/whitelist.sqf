@@ -3,8 +3,7 @@
 
 // Allowed team tags, as defined in your team's squad.xml
 // This isn't very secure but efficient to whitelist a lot of people at once.
-GRLIB_whitelisted_tags = [
-	"1MRB"
+GRLIB_whitelisted_tags = ["1MRB"
 
 ];
 
