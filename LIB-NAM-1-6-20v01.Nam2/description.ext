@@ -231,6 +231,12 @@ class CfgFunctions {
     #include "CfgFunctions.hpp"
     #include "KP\KPPLM\KPPLM_functions.hpp"
 
+    class SAF {
+        #define SAF_FNCS
+            #include "sushi_scripts\core\init.cpp"
+            #include "sushi_scripts\breach\init.cpp"
+        #undef SAF_FNCS
+    };
 };
 
 class CfgRespawnTemplates {
@@ -250,4 +256,4 @@ class CfgTaskDescriptions {
 #include "KP\KPPLM\ui\KPPLM_dialog.hpp"
 
 
-
+#include "ATM_airdrop\dialog.hpp"
